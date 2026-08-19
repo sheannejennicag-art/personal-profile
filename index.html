@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sheanne Jennica | Portfolio</title>
+  <!-- Google Fonts: Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- 1. NAVIGATION HEADER -->
+  <header class="navbar">
+    <div class="logo">Sheanne Jennica</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#hero">About</a></li>
+        <li><a href="#skills">Skills & Badges</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 2. HERO SECTION -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1>Hi, I'm Sheanne Jennica 👋</h1>
+        <p class="tagline">
+          Business Analytics Lead at Accenture - Google Philippines, IT Student at Asia Pacific College, a passionate frontend developer specializing in HTML, CSS Flexbox/Grid, and UI/UX design.
+        </p>
+        <div class="hero-cta">
+          <button class="btn primary">View Work</button>
+          <button class="btn secondary">Get in Touch</button>
+        </div>
+      </div>
+      <div class="hero-avatar">
+        <!-- Make sure your image file is named photo.jpg in your folder -->
+        <img src="photo.jpeg" alt="Sheanne Jennica" />
+      </div>
+    </section>
+
+    <!-- 3. SKILLS SECTION -->
+    <section id="skills" class="skills-section">
+      <h2>Skills & Badges</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Skills</h3>
+          <p>Flex Grid</p>
+        </div>
+        <div class="skill-card">
+          <h3>Skills</h3>
+          <p>Projects</p>
+        </div>
+        <div class="skill-card">
+          <h3>Projects</h3>
+          <p>Project</p>
+        </div>
+        <div class="skill-card">
+          <h3>Tech</h3>
+          <p>Kankscripe</p>
+        </div>
+        <div class="skill-card">
+          <h3>Demci</h3>
+          <p>Matiilnation</p>
+        </div>
+        <div class="skill-card">
+          <h3>Contacts</h3>
+          <p>Logs</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PROJECT SHOWCASE SECTION -->
+    <section id="projects" class="projects-section">
+      <h2>Project Showcase</h2>
+      <div class="projects-grid">
+        
+        <!-- Project 1: ChikaMo -->
+        <article class="project-card">
+          <h3>ChikaMo Translation App</h3>
+          <p>Engineered comprehensive system documentation, database schemas, and parallel language datasets for an English-Tagalog translation application.</p>
+          <div class="card-meta">
+            <span class="tech-tag">Systems Engineering</span>
+          </div>
+        </article>
+
+        <!-- Project 2: NAMFREL -->
+        <article class="project-card">
+          <h3>NAMFREL Analytics</h3>
+          <p>Authored detailed analytics reports evaluating Philippine election data and trend visualizations using Power BI.</p>
+          <div class="card-meta">
+            <span class="tech-tag">Power BI Dashboard</span>
+          </div>
+        </article>
+
+        <!-- Project 3: Weka -->
+        <article class="project-card">
+          <h3>Weka Data Mining & Tableau</h3>
+          <p>Executed data mining experiments evaluating classification models (J48, Naive Bayes) paired with Tableau visualizations.</p>
+          <div class="card-meta">
+            <span class="tech-tag">Data Mining & Tableau</span>
+          </div>
+        </article>
+
+        <!-- Project 4: Smart Meter -->
+        <article class="project-card">
+          <h3>Smart Meter Energy Analytics</h3>
+          <p>Applied unsupervised K-Means clustering on smart-meter energy consumption data with Philippine time-of-use tariffs and climate adjustments to simulate cost-saving opportunities.</p>
+          <div class="card-meta">
+            <span class="tech-tag">Data Science & ML</span>
+          </div>
+        </article>
+
+        <!-- Project 5: RAMS Flex -->
+        <article class="project-card">
+          <h3>RAMS Flex</h3>
+          <p>Flexible Campus Service & Ticketing Hub designed specifically to streamline support, ticketing, and service requests for non-traditional and flexible students like us.</p>
+          <div class="card-meta">
+            <span class="tech-tag">Campus Ticketing Hub</span>
+          </div>
+        </article>
+
+        <!-- Project 6: Business Intelligence lead in Google (Replaced FinServe) -->
+        <article class="project-card featured">
+          <h3>Business Intelligence Lead in Google</h3>
+          <p>Spearheaded data visualization and enterprise analytics initiatives to optimize business strategy, operational metrics, and scalable reporting pipelines.</p>
+          <div class="card-meta">
+            <span class="tech-tag">Google BI</span>
+            <span class="tech-tag">Strategy</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- 5. FOOTER & CONTACT SECTION -->
+  <footer id="contact" class="footer">
+    <h3>Footer & Contact</h3>
+    <div class="footer-container">
+      <form class="contact-form">
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <textarea placeholder="Message..."></textarea>
+        <button type="submit" class="btn submit-btn">Send</button>
+      </form>
+    </div>
+    <div class="social-links">
+      <a href="#">FB</a>
+      <a href="#">TW</a>
+      <a href="#">IG</a>
+      <a href="#">YT</a>
+    </div>
+    <p class="copyright">Copyright by Sheanne Jennica</p>
+  </footer>
+
+</body>
+</html>
